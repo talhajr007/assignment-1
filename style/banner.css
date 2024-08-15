@@ -10,11 +10,11 @@
     background-size: cover;
 } 
 
-.nav-1{
+#nav-1{
   display:  inline;
   
 }
-.bnr-i{
+#bnr-i{
     
      position:static; 
      width: 240.56px;
@@ -26,7 +26,7 @@
     
 }
   
-.bnr-p{
+#bnr-p{
               color: rgb(13, 19, 33);
              font-family:'Courier New', Courier, monospace;
                font-size: 16px;
@@ -37,7 +37,7 @@
 
 }
 
-.bnr-btn{
+#bnr-btn{
    
              position:static;
           width: 208px;
@@ -53,23 +53,18 @@
             color: #fdfcfc;
 }
 
-main{
-
-
-
-}
 
 .title{
- margin: 50px;
+ margin: 50px 100px;
  padding: 50px; 
  border: #f1f1f1;
  background-color: #fdfcfc;
- 
+ width: 1015px;
 }
 
 
 
-.h1{
+#h1{
   position: static;
   width: 852px;
   height: 39px; 
@@ -91,7 +86,7 @@ main{
   
 }
 
-.p1{
+#p1{
 opacity: 0.7;
 color: rgb(13, 19, 33);
 font-size: 16px;
@@ -134,7 +129,7 @@ margin: 24px 0px;
   
 }
 
-.h2{
+#h2{
   position: static;
   width: 390px;
   height: 72px;
@@ -156,7 +151,7 @@ margin: 24px 0px;
   text-align: left;
 }
 
-.p2{ 
+#p2{ 
   position: static;
   width: 468px;
   height: 52px;
@@ -178,7 +173,7 @@ margin: 24px 0px;
   opacity: 0.7;
 }
 
-.btn-2{ 
+#btn-2{ 
   position: static;
   width: 110px;
   height: 24px;
@@ -197,7 +192,7 @@ margin: 24px 0px;
   letter-spacing: 0%;
   text-align: center;   
 }
-.btn-L{
+#btn-L{
   position: static;
   width: 150px;
   height: 48px;
@@ -234,7 +229,7 @@ border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
-.h3{
+#h3{
 position: static;
 width: 477px;
 height: 72px;
@@ -256,7 +251,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.p3{
+#p3{
 width: 468px;
 height: 60px;
 display: flex;
@@ -278,7 +273,7 @@ margin: 16px 0px;
   opacity: 0.7;
 }
 
-.btn-I{
+#btn-I{
   position: static;
   width: 150px;
   height: 48px;
@@ -315,7 +310,7 @@ margin: 16px 0px;
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
-.h4{
+#h4{
 position: static;
 width: 390px;
 height: 72px;
@@ -337,7 +332,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.p4{
+#p4{
   position: static;
   width: 468px;
   height: 52px;
@@ -359,7 +354,7 @@ text-align: left;
   text-align: left;
 }
 
-.btn-J{
+#btn-J{
   position: static;
   width: 150px;
   height: 48px;
@@ -383,7 +378,7 @@ text-align: left;
   position: absolute;
   width: 1140px;
   height: 777px;
-  left: 130px;
+  left: 100px;
   right: 152px;
   display: flex;
   flex-direction: column;
@@ -392,7 +387,7 @@ text-align: left;
   padding: 0px;
   }
 
-  .Inp{
+#Inp{
 position: static;
 width: 852px;
 height: 39px;
@@ -415,7 +410,7 @@ letter-spacing: 0%;
 text-align: center;
   }
 
-.jm{
+#jm{
 position: static;
 width: 852px;
 height: 52px;
@@ -438,7 +433,7 @@ letter-spacing: 0%;
 text-align: center;
 }
 
-.video{
+#video{
 position: static;
 flex: none;
 order: 0;
@@ -466,7 +461,7 @@ margin: 48px 0px;
 .all{
 position: static;
 width: 1140px;
-height: 460px;
+height: 400px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -479,7 +474,7 @@ flex-grow: 0;
 margin: 900px 80px;
 }
 
-.MyTarget{
+#MyTarget{
 position: static;
 width: 852px;
 height: 39px;
@@ -511,7 +506,7 @@ margin: 0px 25px;
   margin: 5px 0px;
   }
 
-.target{
+#target{
   position: static;
 width: 852px;
 height: 52px;
@@ -580,7 +575,7 @@ border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
 }
 
-.html-p{
+#html-p{
 position: static;
 width: 284px;
 height: 135px;
@@ -603,7 +598,7 @@ letter-spacing: 0%;
 text-align: left; 
 }
 
-.html-l{
+#html-l{
 position: static;
 width: 284px;
 height: 20px;
@@ -657,7 +652,7 @@ border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 }
 
-.css-p{
+#css-p{
   position: static;
 width: 284px;
 height: 150px;
@@ -680,7 +675,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.css-l{
+#css-l{
 position: static;
 width: 284px;
 height: 20px;
@@ -695,7 +690,6 @@ align-self: stretch;
 flex-grow: 0;
 margin: 24px 0px;
 color: rgb(13, 19, 33);
-font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 line-height: 19px;
@@ -734,7 +728,7 @@ border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
 
-.Js-p{
+#Js-p{
 position: static;
 width: 284px;
 height: 160px;
@@ -757,7 +751,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.Js-l{
+#Js-l{
 position: static;
 width: 284px;
 height: 20px;
@@ -813,7 +807,7 @@ flex-grow: 0;
 margin: -24px 0px;
 }
 
-.support{
+#support{
   position: static;
   width: 230px;
   height: 36px;
@@ -834,7 +828,7 @@ margin: -24px 0px;
   text-align: center;
 }
 
-.contact{
+#contact{
 position: absolute;
 width: 606px;
 height: 20px;
@@ -875,7 +869,7 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 }
 
-.submit{
+#submit{
 position:static;
 width: 120px;
 height: 58px;
@@ -890,4 +884,75 @@ flex-grow: 0;
 margin: 0px 16px; 
 border-radius: 8px;
 background: rgb(255, 255, 255);
+}
+
+#commitment{
+position: static;
+width: 390px;
+height: 25px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px 39px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.frame-2{
+position: static;
+width: 150px;
+height: 0px;
+display: flex;
+flex-direction: row;
+ justify-content: space-between;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 17px 0px;
+}
+
+.frame-4{
+position: absolute;
+width: 1000px;
+height: 100px;
+left: 0px;
+top: 5145px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 32;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+
+}
+
+.frame-5{
+  position: static;
+  width: 1240px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
 }
